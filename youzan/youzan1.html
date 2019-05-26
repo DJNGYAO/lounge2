@@ -1,0 +1,436 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>有赞 - 做生意，用有赞</title>
+        <style>
+        .header{
+            width: 1918px;
+            height: 70px;
+            background: #ffffff;
+            border-bottom: 1px solid #ededed;
+            box-shadow: 0px 1px 4px rgba(0, 0, 0,0.1);
+            margin: -8px ;
+            display: block;
+        }
+        
+        .header2{
+            box-sizing: border-box;
+            margin: 0 auto;
+            width: 1000px;
+            height: 70px;
+        }
+
+        .logo{
+            display: inline-block;
+            width: 72px;
+            height: 25px;
+            margin-top: 22.5px;
+            background-size: 72px 25px;
+            background-image:0;
+        }
+
+        .hongkong{
+            display: inline-block;
+            width: 60px;
+            margin-left: 10px;
+            margin-bottom: -1px;
+   }
+
+       .header-hk{
+           width: 78px;
+           color: #999;
+           font-size: 10px;
+           font-family: 'PingFang SC';
+           font-weight: 300;
+           line-height: 13px;
+           margin:0px;
+   }
+
+        .header-list{
+            position: absolute;
+            left: 700px;
+            top: 0px;
+            zoom: 1;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font: inherit;
+            font-size: 100%;
+            vertical-align: baseline;
+            padding-inline-start: 40px;
+       }
+
+       .cen{
+           
+        text-decoration: none;
+        color: #FF4444 !important
+       }
+
+       .drop{
+        text-decoration: none;
+        color: #2c3a46;
+       }
+
+       .center{
+        float: left;
+        display: inline-block;
+        height: 70px;
+        line-height: 70px;
+        padding: 0px 20px;
+       }
+
+       .dropdown{
+        z-index: 200;
+        margin-right: 16px;
+        padding: 0px 20px;
+        height: 70px;
+        line-height: 70px;
+       }
+
+       li{
+        float: left;
+        display: inline-block;
+        height: 70px;
+        line-height: 70px;
+        
+       }
+
+      .denglu{
+        padding: 0px 0px 0px 20px;
+        display: inline-block;
+        height: 70px;
+        line-height: 70px;
+        top:500px;
+        position:absolute;
+        left:700px;
+        top:10px;
+  
+   
+      }
+
+      .btnlogin{
+        width: 80px;
+        height: 30px;
+        line-height: 28px;
+        border: 1px solid #2B90ED;
+        color: #2B90ED;
+        text-align: center;
+        border-radius: 2px;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+  
+      }
+
+      .zhuce{
+        padding: 0px 0px 0px 10px;
+        position:absolute;
+        left:800px;
+        top:10px;
+      
+      }
+
+      .btnregister{
+        width: 80px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #2B90ED;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+      }
+
+       .xiao{
+        position: relative;
+        display: inline-block;
+        top:2px;
+        border: 5px solid transparent;
+        border-top-color: #333;
+       }
+
+       .xiao1{
+        position: relative;
+        display: inline-block;
+        top:0px;
+        right:  14px;
+        border: 5px solid transparent;
+        border-top-color: #ffffff;
+       }
+
+       .pic{
+        position: absolute;
+        top: 72px;
+        height: 400px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font: inherit;
+        font-size: 100%;
+        vertical-align: baseline;
+        background-size: cover;
+        background-position: 50%;
+       }
+
+       .leftright{
+        width: 1100px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+       }
+
+       .left{
+        position: absolute;
+        left: -70px;
+        top: 150px;
+        width: 60px;
+        height: 60px;
+        background-size: 100% 100%;
+        background-image: url(left.png);
+       }
+
+       .right{
+        position: absolute;
+        left: 1300px;
+        top: 150px;
+        width: 60px;
+        height: 60px;
+        background-size: 100% 100%;
+        background-image: url(right.png); 
+       }
+
+       .content-wrapper
+{
+  position: absolute;
+    width: 1100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.font-lighter
+{
+  font-size: 20px;
+    color: #777;
+    margin-bottom: 55px;
+
+}
+.p
+{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3
+{
+  font-size: 44px;
+    margin: 100px 0 7px;
+    line-height: 62px;
+}
+.buttonmianfei
+{
+  width: 160px;
+    height: 40px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   
+    text-decoration: none;
+    border-radius: 2px;
+}
+a.primary
+{
+  background: #38f;
+    padding: 12px 42px;
+    color: #fff;
+}
+
+.telephone
+{
+   
+    color: #777;
+    margin-top: 15px;
+    display: block;
+    margin: 0;
+    padding: 10px 0px 0px  0px;
+    border: 0;
+    font-size: 14px;
+}
+
+.youzanwei{
+  font-family: PingFangSC-Medium;
+    font-size: 28px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: center;
+    
+    line-height: 40px;
+    padding-top: 0px;
+}
+
+.main-container{
+  position: absolute;
+   
+    height:400px;
+    width: 100%;
+    margin: 70px 0px 0px 0px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    background-size: cover;
+    background-position: 50%;
+    top:472px;
+}
+
+.wcard-left {
+    
+    margin: 70px 400px 0px 400px;
+    
+  
+ }
+ .wcard-section {
+     margin-bottom: 28px;
+ }
+ .wcard-sectitle {
+     color: #333;
+     font-size: 18px;
+     line-height: 24px;
+     font-family: PingFangSC-Medium;
+     letter-spacing: 0;
+ }
+  .wcard-secsummary {
+     margin-top: 5px;
+     font-family: PingFangSC-Regular;
+     font-size: 14px;
+     color: #999;
+     letter-spacing: 0;
+     line-height: 24px;
+ }
+ .buttonblue {
+     font-size: 14px;
+     padding: 10px 42px;
+     border-radius: 2px;
+     display: inline-block;
+     background-color: #38f;
+     color: #fff;
+ }
+ 
+ 
+ .buttonblueout {
+   font-size: 14px;
+     padding: 10px 42px;
+     border-radius: 2px;
+     display: inline-block;
+     border: 1px solid #38f;
+     color: #38f;
+     padding: 9px 42px;
+ }
+ .pic1
+ {
+   position: absolute;
+   left: 750px;
+   top:250px;
+   width: 650px;
+   height: 455px;
+ }
+ 
+
+    
+        </style>
+    </head>
+    <body>
+        <div class="header">
+        <div class="header2">
+        <a class="logo">
+        <a href="www.youzan.com"><img src="youzan.png"></a>
+        
+        <div class="hongkong">
+        <p class="header-hk">香港上市代码</p>
+        <p class="header-hk">08083.HK</p>
+        </div>      
+        <ul class="header-list">
+        <li class="center"><a href="shouye" class="cen">首页</a></li>
+        <li class="center"><a href="shangjia" class="drop">商家服务<i class="xiao"></i><i class="xiao1"></i> </a></li>
+        <li class="dropdown"><a href="xiaofei"  class="drop">消费者<i class="xiao"></i><i class="xiao1"></i> </a></li>
+        <li class="dropdown"><a href="qudao"    class="drop">渠道合作</a></li>
+        <li class="dropdown"><a href="youzan" class="drop">有赞云<i class="xiao"></i><i class="xiao1"></i> </a></li>
+        <li class="dropdown"><a href="gengduo" class="drop">更多服务<i class="xiao"></i><i class="xiao1"></i> </a></li>
+        <li class="denglu">
+        <a href="account.youzan.com/login" target="blank" class="btnlogin">登录</a></li>
+        <li class="zhuce">    
+        <a href="account.youzan.com/register" target="blank" class="btnregister">注册</a></li>
+            
+            
+        
+    </ul>
+
+      
+       </div>
+    </div>
+     <div class="pic" style="background-image:url(saoma.jpg) ">
+        <div class="leftright">
+        <div class="left"></div>
+        <div class="right"></div>
+        <div class="content-wrapper">
+        <h3>有赞微商城</h3>
+        <p class="font-lighter">一个软件解决网上开店所有问题</p>
+        <a href="account.youzan.com/register?product=retail" target="blank" class="buttonmianfei primary" >免费试用</a> 
+        <small class="telephone">或致电 0571 - 8685 7988</small>
+        </div>
+        </div>
+        </div>
+      
+      <div class="main-container">
+      <h3 class="youzanwei">有赞微商城 全行业全场景的电商解决方案</h3>
+      <div class="wcard-left">
+          <div class="wcard-section">
+          <p class="wcard-sectitle">3分钟搭建移动商城</p>
+          <p class="wcard-secsummary">深挖行业特点 匹配产品功能，提供全行业解决方案</p>
+          </div>
+          <div class="wcard-section">
+          <p class="wcard-sectitle">近百种营销工具</p>
+          <p class="wcard-secsummary">社群营销&节日营销，拉新、转化、复购面面俱到</p>
+          </div>
+          <div class="wcard-section"><p class="wcard-sectitle">系统化管理客户</p>
+          <p class="wcard-secsummary">客户画像帮您了解客户，会员卡/储值卡实现精准营销</p>
+          </div>
+          <div class="wcard-section"><p class="wcard-sectitle">分销拓展销售渠道</p>
+          <p class="wcard-secsummary">客户帮你卖，员工帮你卖，300万商家帮你卖</p>
+          </div>
+          <div class="wcard-section">
+              <a href="account.youzan.com/reqister"  class="buttonblue" style="margin-right: 15px">免费试用</a>
+              <a href="www.youzan.com/intro/wsc" class="buttonblueout" style="margin-left: 15px">功能介绍</a>
+              </div>
+              <div class="pic1" style="background-image: url(diannao.png)"></div>
+          </div>
+   
+   
+    </body>
+    </html>
+   
